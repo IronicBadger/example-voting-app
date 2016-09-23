@@ -12,7 +12,7 @@ RUN pip install -r requirements.txt
 ADD . /app
 
 # Make port 80 available for links and/or publish
-EXPOSE 80
+EXPOSE 8080
 
 # Define our command to be run when launching the container
 CMD ["python", "app.py"]
